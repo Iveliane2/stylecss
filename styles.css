@@ -1,0 +1,181 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: fixed;
+    padding: auto;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    background-color: #0062ff;
+    margin-top: -10px;
+    
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 900;
+    border: solid 5px #fff;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 15px;
+    border-radius: 32px;
+}
+ .welcome{
+    max-width: 100%;
+    width: 1200px;
+    position: relative;
+    margin: 10px auto;
+    height: 900px;
+
+}
+
+.welcome img{
+    position: absolute;
+   
+}
+.welcome h2{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    color: #333;
+    height: 100px
+    
+}
+.welcome h2 span{
+    font-weight: bold;
+    color: deepskyblue;
+}
+nav  {
+    position: sticky;
+    top: 100px;
+    margin: 25px auto;
+    background-color: darkgrey;
+    z-index: 15;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    color: #222;
+}
+
+/*main content style */
+
+main.main-content{
+    width: 100%;
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+section h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #0062ff;
+}
+
+section p{
+    font-size: 1.4rem
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.image img{
+    width: 50%;
+    border: solid 2px #e2e2e2;
+    border-radius: 1rem;
+    
+}
+
+form{
+    border: solid 2px #ddd;
+    width: 60%;
+    padding: 25px;
+    background-color: #0062ffaf;
+    border-radius: 2rem;
+}
+
+form input[type='text'], form input[type='email'], form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: solid 3px #ddd;
+    margin: 6px 0;
+}
+
+form input[type='submit']{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: #fff;
+    color: #0062ff;
+    padding: 10px 24px;
+    border-radius: 2rem;
+}
+
+.whatsaap{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.whatsaap img.logo{
+    height: 52%;
+    justify-items: center;
+    
+}
+.whatsaap span.phone{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.form{
+    position: relative;
+}
+
+div.form form{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+footer{
+    width: 100%;
+    background-color: #0062ff;
+    color: #fff;
+    margin-top: 50px;
+}
+
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p a{
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    font-weight: bold;
+}

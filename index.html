@@ -2,55 +2,95 @@
 <html lang="fr">
     <head>
         <meta charsert="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projet HTML</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!--En-tête-->
+        
         <header>
-            <!--Barre de navigation-->
-            <nav>
-                <ul style="list-style: none;">
-                    <li>
-                        <a style="background-color: auto; margin-right: 20px; float: left;" href="#Accueil">Accueil</a>
-                    </li>
-                    <li>
-                        <a style="top: auto; margin-right: 30px; float: left;" href="#A Propos">A Propos</a>
-                    </li>
-                    <li>
-                        <a style="top: auto; margin-right: 40px; float: left;" href="#Travail">Travail</a>
-                    </li>
-                    <li>
-                        <a style="top: auto; margin-right: 50px; float: left;" href="#CV">CV</a>
-                    </li>
-                    <li>
-                        <a style="top: auto; margin-right:60px; float: left ;" href="#Contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--Vidéo-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uZLEbpKD_Zg?start=282" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <!--Section-->
-        <section>
-            <div id="A Propos" style="width:300px; height:250px; top: auto;">
-                <h1>A Propos</h1>
-            </div> 
-            <div id="Travail" style="width: 300px; height: 250px; top: auto;">
-                <h2>Travail</h2>
-            </div>
-            <div id="CV" style="width: 300px; height: 250px; top: auto;">
-                <h3>CV</h3>
-            </div>
-            <div id="Contact" style="width: 300px; height: 500px; top:auto">
-                <h4>Contact</h4>
-            </div>    
-        </section>
-        <!--Mail -->
+            <h1 class="main-title">Le Club Des Pros</h1>
+        </header>   
+        
+        <section class="welcome">
+            <img src="Mes images/image 1.jpg" alt="image de pofile">
+            <h2>Salut les pros, <br><span> HOME EVENTS</span> votre agence <br> d'organisation d'événements</h2>
+        </section> 
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#apropos.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="#apropos.html">A Propos</a>
+                </li>
+                <li>
+                        <a href="#apropos.html">Travail</a>
+                </li>
+                <li>
+                    <a href="#apropos.html">CV</a>
+                </li>
+                <li>
+                    <a href="#apropos.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="section">
+                <h2>A propos de nous</h2>
+                       <p>Nous sommes une agence événementielle qui propose des prestations
+                     de service spécialisées dans la conception et l'organisation de divers événements festifs, 
+                     de manifestations sportives et culturelles, des événements professionnels, des activités dans le domaine du tourisme, des spectacles, etc.</p>
+                    <p>La communication événementielle permet de capter l'attention dans un objectif promotionnel d'un produit ou d'une marque, 
+                     mais aussi de réunir et toucher les invités tout en valorisant l'image de l'initiateur du projet. 
+                     Tel est le but premier de cette agence, fournir des services impécables à vos bésoins.</p>
+            </section>
+                
+            <section class="section">
+                    <h2>Notre Travail</h2>
+                    <ul>
+                        <li class="image">
+                            <img src="Mes images/image 2.jpg">
+                        </li>
+                        <li class="image">
+                            <img src="Mes images/image 3.jpg">
+                        </li>
+                    </ul>
+                        
+            </section>    
+
+            <section class="section">
+                <h2>Entrez votre CV</h2>
+                <p>Pour postuler, veillez entrer votre CV en cliquant <a href="mailto:ivelianeyala@gmail.com">ici!</a></p>
+            </section>
+
+            <section class="section">
+                <h2>Contacter Nous</h2>
+                <div class="form">
+                    <img src="Mes images/image 4.jpg" alt="office Contact">
+                    <form>
+                        <div class="whatsapp">
+                            <img class="logo" src="" alt="logo whatsapp">
+                            <span class="phone">781010902</span>
+                        </div>
+                        <input type="text" name="nom" placeholder="Nom">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message" id="" rows="5"></textarea>
+                        <input type="submit" value="Evoiyez Votre Message">
+                    </form>
+                </div>
+                
+            </section>
+        </main>    
+        
         <footer>
-            <a href="mailto:ivelianeyala@gmail.com">Ecrivez-moi!</a>
-            
+            <p>Tous droits réservés <a href="">HOME EVENTS</a> &copy; 2023 </p>
         </footer>
        
+        
+        
     </body>
 </html>
